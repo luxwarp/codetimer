@@ -9,7 +9,7 @@ Check Wiki for change log and more information [here](https://github.com/mmcarls
 `npm install codetimer --save-dev`
 
 ## Usage
-Exempel code on how to run CodeTimer in your project.
+Example code on how to run CodeTimer in your project.
 
 ```javascript
 const CodeTimer = require('codetimer');                        //import CodeTimer module
