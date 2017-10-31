@@ -1,7 +1,7 @@
 # CodeTimer
 
 ## Intro
-A node module that lets you take time on how long it takes to run your code.
+A node module that lets you take time on how long it takes to execute code in your project.
 
 Check Wiki for change log and more information [here](https://github.com/mmcarlsson/codetimer/wiki)
 
@@ -26,6 +26,7 @@ for(let i = 0; i < 1000000000; i++) {                           //Do some calcul
 
 ct.stop();                                                      //Stop the timer.
 
+console.log('Result counter: ', result);
 console.log('Milliseconds: ',ct.getTime());                     //Print out the result. Result is in milliseconds by default.
 console.log('Seconds: ',(ct.getTime()/1000));                   //convert result to seconds. eg 0.834.
 ```

@@ -1,6 +1,6 @@
 'use strict';
 
-let startTime = 0;
+let startTime = 0;                  //Global variables.
 let stopTime = 0;
 
 class CodeTimer {
@@ -28,6 +28,5 @@ class CodeTimer {
         return (stopTime - startTime);
     }
 }
-
 module.exports = CodeTimer;
 

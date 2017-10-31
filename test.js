@@ -12,5 +12,6 @@ for(let i = 0; i < 1000000000; i++) {                           //Do some calcul
 
 ct.stop();                                                      //Stop the timer.
 
+console.log('Result counter: ', result);
 console.log('Milliseconds: ',ct.getTime());                     //Print out the result. Result is in milliseconds by default.
 console.log('Seconds: ',(ct.getTime()/1000));                   //convert result to seconds. eg 0.834.

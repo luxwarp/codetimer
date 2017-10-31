@@ -1,10 +1,10 @@
 {
   "name": "codetimer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A node module that lets you take time on how long it takes to run your code. Edit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
