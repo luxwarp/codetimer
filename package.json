@@ -1,19 +1,19 @@
 {
   "name": "codetimer",
-  "version": "0.0.3",
-  "description": "A node module that lets you take time on how long it takes to run your code. Edit",
+  "version": "0.0.4",
+  "description": "A NodeJS module that let's you take time on how long it takes to execute code in your project.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmcarlsson/codetimer.git"
+    "url": "git+https://github.com/luxwarp/codetimer.git"
   },
-  "author": "Mikael Carlsson <mikael.m.carlsson@gmail.com> (https://mikaelcarlsson.info)",
-  "license": "MIT",
+  "author": "Mikael Luxwarp Carlsson <mikael.m.carlsson@gmail.com> (https://luxwarp.info)",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mmcarlsson/codetimer/issues"
+    "url": "https://github.com/luxwarp/codetimer/issues"
   },
-  "homepage": "https://github.com/mmcarlsson/codetimer#readme"
+  "homepage": "https://github.com/luxwarp/codetimer#readme"
 }

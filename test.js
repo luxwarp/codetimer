@@ -1,17 +1,19 @@
-const CodeTimer = require('./index.js');                        //import CodeTimer module
+'use-strict'
 
-const ct = new CodeTimer();                                     //Create new object from class.
+const CodeTimer = require('./index.js') // import CodeTimer module.
 
-ct.start();                                                     //Start the timer.
+const ct = new CodeTimer() // Create new object from class.
 
-let result = 0;
+ct.start() // Start the timer.
 
-for(let i = 0; i < 1000000000; i++) {                           //Do some calculations.
-    result++;
+let result = 0
+
+for (let i = 0; i < 1000000000; i++) { // Do some calculations.
+  result++
 }
 
-ct.stop();                                                      //Stop the timer.
+ct.stop() // Stop the timer.
 
-console.log('Result counter: ', result);
-console.log('Milliseconds: ',ct.getTime());                     //Print out the result. Result is in milliseconds by default.
-console.log('Seconds: ',(ct.getTime()/1000));                   //convert result to seconds. eg 0.834.
+console.log('Result counter: ', result) // Print out the calculation.
+console.log('Milliseconds: ', ct.getTime()) // Print out the result. Result is in milliseconds by default.
+console.log('Seconds: ', (ct.getTime() / 1000)) // convert result to seconds. eg 0.834.
