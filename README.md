@@ -33,7 +33,7 @@ console.log('Milliseconds: ', ct.getTime())                 // Print out the res
 console.log('Seconds: ', (ct.getTime() / 1000))             // Convert result to seconds. eg 0.834.
 ```
 
-##Result
+## Result
 Result of above code should look something like this.
 ```
 Result counter:  1000000000
